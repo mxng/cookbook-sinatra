@@ -8,5 +8,9 @@ configure :development do
 end
 
 get '/' do
-  'Bye world!'
+  'hello world'
+end
+
+get '/about' do
+  'bye world'
 end
